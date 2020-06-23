@@ -1,15 +1,20 @@
-<h1 align="left">advanced-node-course</h1>
+<h1 align="left">performance-node-course</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/anticriativo" target="_blank">
-    <img alt="Twitter: anticriativo" src="https://img.shields.io/twitter/follow/anticriativo.svg?style=social" />
-  </a>
 </p>
 
-> A project made by followind the &#34;Node.js Advanced Concepts&#34; course by Stephen Grider
+> A project made by followind the &#34;Node.js Advanced Concepts&#34; course by [Stephen Grider](https://twitter.com/ste_grider)
+
+This project was created following the **"Enhancing Node Performance"** part of the course, where the following topics were discussed:
+- Event Loop
+- Clusters
+- PM2
+- Worker Threads
+
+Course avaliable on [Udemy](https://www.udemy.com/share/101WFuBUcTcVdSR34=/)
 
 ## Install
 
@@ -27,7 +32,6 @@ npm run dev
 
 👤 **André L. Adriano**
 
-* Twitter: [@anticriativo](https://twitter.com/anticriativo)
 * Github: [@andre000](https://github.com/andre000)
 * LinkedIn: [@andreadriano](https://linkedin.com/in/andreadriano)
 
