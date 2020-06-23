@@ -1,0 +1,29 @@
+{
+  "name": "advanced-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "node bundler.dev.js",
+    "build": "parcel build -t node src/server.ts"
+  },
+  "keywords": [
+    "course",
+    "advanced-node-for-developers",
+    "udemy"
+  ],
+  "author": "André L. Adriano",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.21.2",
+    "nodemon": "^2.0.4",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.5"
+  }
+}
