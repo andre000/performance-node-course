@@ -5,7 +5,7 @@
   "main": "src/cluster.ts",
   "scripts": {
     "dev": "node bundler.dev.js && node dist/server.js",
-    "build": "parcel build -t node src/cluster.ts"
+    "build": "parcel build -t node src/server.ts"
   },
   "keywords": [
     "course",

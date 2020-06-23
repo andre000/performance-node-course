@@ -1,7 +1,7 @@
 const Bundler = require('parcel-bundler');
 const Path = require('path');
 
-const entryFiles = Path.join(__dirname, './src/cluster.ts');
+const entryFiles = Path.join(__dirname, './src/server.ts');
 
 const options = {
   outDir: './dist', // O diretório de saída para construir os arquivos, dist é o padrão
