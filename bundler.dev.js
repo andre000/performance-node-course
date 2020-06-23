@@ -1,6 +1,5 @@
 const Bundler = require('parcel-bundler');
 const Path = require('path');
-const nodemon = require('nodemon');
 
 const entryFiles = Path.join(__dirname, './src/server.ts');
 
@@ -23,7 +22,5 @@ const options = {
 (async function() {
   const bundler = new Bundler(entryFiles, options);
   await bundler.bundle();
-
-  process.env.NODE_ENV = 'development';
-
+  process.exit(0);
 })();

@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "node bundler.dev.js",
+    "dev": "node bundler.dev.js && node dist/server.js",
     "build": "parcel build -t node src/server.ts"
   },
   "keywords": [
