@@ -2,10 +2,10 @@
   "name": "advanced-node",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.ts",
+  "main": "src/cluster.ts",
   "scripts": {
     "dev": "node bundler.dev.js && node dist/server.js",
-    "build": "parcel build -t node src/server.ts"
+    "build": "parcel build -t node src/cluster.ts"
   },
   "keywords": [
     "course",
