@@ -5,7 +5,10 @@
   "main": "src/cluster.ts",
   "scripts": {
     "dev": "node bundler.dev.js && node dist/server.js",
-    "build": "parcel build -t node src/server.ts"
+    "build": "parcel build -t node src/server.ts",
+
+    "prod:start": "npx pm2 start dist/server.js -i 0 --name advanced-node",
+    "prod:stop": "npx pm2 delete advanced-node"
   },
   "keywords": [
     "course",
