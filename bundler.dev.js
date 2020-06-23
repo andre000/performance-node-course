@@ -25,16 +25,5 @@ const options = {
   await bundler.bundle();
 
   process.env.NODE_ENV = 'development';
-  nodemon({
-    script: 'dist/server.js',
-    ext: 'js json'
-  });
-
-  nodemon
-    .on('start', () => console.log('App iniciado!'))
-    .on('quit', () => {
-      console.log('App has quit');
-      process.exit();
-    });
 
 })();
