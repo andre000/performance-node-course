@@ -1,10 +1,12 @@
 import express from 'express';
 import chalk from 'chalk';
+import doWork from './doWork';
 
 const PORT = 3000;
 const app = express();
 
 app.get('/', (req, res) => {
+  doWork(5000);
   res.send('Hi there');
 });
 
