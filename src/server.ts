@@ -6,8 +6,7 @@ const PORT = 3000;
 const app = express();
 
 app.get('/', (req, res) => {
-  doWork(5000);
-  res.send('Hi there');
+  doWork((hash) => res.send(`<div>Hi there <br /> <pre>${hash}</pre></div>`));
 });
 
 app.get('/fast', (req, res) => {
