@@ -10,4 +10,8 @@ app.get('/', (req, res) => {
   res.send('Hi there');
 });
 
+app.get('/fast', (req, res) => {
+  res.send('This was fast!');
+});
+
 app.listen(PORT, () => console.log(chalk`Server started on port {green ${PORT}}`));
